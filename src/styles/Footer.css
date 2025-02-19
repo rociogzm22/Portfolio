@@ -1,0 +1,75 @@
+.footer-secction {
+  background-color: #f5f5f0;
+  padding: 4rem 2rem;
+  position: relative;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.footer-title {
+  position: relative;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.lets,
+.work {
+  color: #ff4b1f;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.together {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  color: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-item:hover {
+  color: #ff4b1f;
+}
+
+@media (max-width: 768px) {
+  .footer-title {
+    font-size: 2.5rem;
+  }
+
+  .together {
+    font-size: 2rem;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
