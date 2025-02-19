@@ -7,22 +7,27 @@ import "../styles/Gallery.css"
 const images = [
   {
     src: "/google.jpeg",
+    alt:"",
     description: "Experiencia increible en el Init.g de Google",
   },
   {
     src: "/dedalus.jpeg",
+    alt:"",
     description: "Datathon organizado por Dedalus",
   },
   {
     src: "/premio.jpeg",
+    alt:"",
     description: "Ganadora del premio a la persona destacada",
   },
   {
     src: "/uad.jpeg",
+    alt:"",
     description: "#Uad360",
   },
   {
     src: "/minion.jpeg",
+    alt:"",
     description: "",
   },
 

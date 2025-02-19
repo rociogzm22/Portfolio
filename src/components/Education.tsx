@@ -1,4 +1,4 @@
-import { GraduationCap, Award, Book } from "lucide-react"
+import { GraduationCap, Book } from "lucide-react"
 import "../styles/Education.css"
 
 const education = [
