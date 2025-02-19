@@ -59,17 +59,21 @@
 
 @media (max-width: 768px) {
   .footer-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .together {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .contact-info {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+  }
+
+  .footer-secction {
+    padding: 2rem 1rem;
   }
 }
 
