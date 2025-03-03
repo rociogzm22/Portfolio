@@ -86,7 +86,6 @@
 @media (max-width: 768px) {
   .about-section {
     grid-template-columns: 1fr;
-    height: auto;
   }
 
   .about-right {
@@ -98,15 +97,11 @@
   }
 
   .name {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .about-info {
     max-width: 100%;
-  }
-
-  .hello {
-    font-size: 2rem;
   }
 }
 

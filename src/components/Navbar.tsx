@@ -1,5 +1,7 @@
+"use client"
+
 import { useState, useEffect } from "react"
-import { Menu, X } from "lucide-react"
+import { Menu } from "lucide-react"
 import "../styles/Navbar.css"
 
 export default function Navbar() {
@@ -14,30 +16,29 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
-
   return (
     <nav className={`navbar ${isScrolled ? "scrolled" : ""}`}>
       <div className="nav-content">
         <a href="#home" className="nav-logo">
           RG
         </a>
-        <button className="menu-toggle" onClick={toggleMenu}>
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+        <button className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          <Menu />
         </button>
         <div className={`nav-links ${isMenuOpen ? "open" : ""}`}>
-          <a href="#about" onClick={toggleMenu}>
+          <a href="#about" onClick={() => setIsMenuOpen(false)}>
             Sobre mí
           </a>
-          <a href="#education" onClick={toggleMenu}>
+          <a href="#projects" onClick={() => setIsMenuOpen(false)}>
+            Proyectos
+          </a>
+          <a href="#education" onClick={() => setIsMenuOpen(false)}>
             Educación
           </a>
-          <a href="#gallery" onClick={toggleMenu}>
+          <a href="#gallery" onClick={() => setIsMenuOpen(false)}>
             Galería
           </a>
-          <a href="#footer" onClick={toggleMenu}>
+          <a href="#contact" onClick={() => setIsMenuOpen(false)}>
             Contacto
           </a>
         </div>
