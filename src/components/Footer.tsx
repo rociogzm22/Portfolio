@@ -1,4 +1,4 @@
-import { Mail, Globe, Phone } from "lucide-react"
+import { Mail, Phone } from "lucide-react"
 import "../styles/Footer.css"
 
 export default function Footer() {
@@ -11,6 +11,7 @@ export default function Footer() {
           <span className="work">WORK</span>
         </div>
         <div className="contact-info">
+
           <a href="mailto:rocioguzmanarroyo22@gmail.com" className="contact-item">
             <Mail size={20} />
             <span>rocioguzmanarroyo22@gmail.com</span>
