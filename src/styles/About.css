@@ -1,7 +1,9 @@
 .about-section {
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  width: 100%;
+  overflow: hidden;
 }
 
 .about-left {
@@ -83,13 +85,31 @@
   object-fit: cover;
 }
 
+@media (max-width: 1024px) {
+  .about-left {
+    padding: 3rem 2rem;
+  }
+
+  .hello {
+    font-size: 2.5rem;
+  }
+
+  .name {
+    font-size: 3.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   .about-section {
     grid-template-columns: 1fr;
+    min-height: auto;
+    padding: 0;
   }
 
   .about-right {
-    display: none;
+    display: block;
+    height: 50vh;
+    order: -1;
   }
 
   .about-left {
@@ -102,6 +122,24 @@
 
   .about-info {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hello {
+    font-size: 2rem;
+  }
+
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .about-left {
+    padding: 1.5rem;
+  }
+
+  .about-right {
+    height: 40vh;
   }
 }
 

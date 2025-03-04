@@ -16,7 +16,7 @@ export default function Footer() {
             <Mail size={20} />
             <span>rocioguzmanarroyo22@gmail.com</span>
           </a>
-          <a href="https://www.linkedin.com/in/yourprofile" className="contact-item">
+          <a href="https://www.linkedin.com/in/rocio-guzman-arroyo-112a87213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="contact-item">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -29,7 +29,7 @@ export default function Footer() {
             </svg>
             <span>LinkedIn</span>
           </a>
-          <a href="https://github.com/yourusername" className="contact-item">
+          <a href="https://github.com/rociogzm22" className="contact-item">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"

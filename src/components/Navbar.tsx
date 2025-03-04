@@ -29,9 +29,6 @@ export default function Navbar() {
           <a href="#about" onClick={() => setIsMenuOpen(false)}>
             Sobre mí
           </a>
-          <a href="#projects" onClick={() => setIsMenuOpen(false)}>
-            Proyectos
-          </a>
           <a href="#education" onClick={() => setIsMenuOpen(false)}>
             Educación
           </a>

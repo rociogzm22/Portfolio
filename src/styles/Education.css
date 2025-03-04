@@ -26,13 +26,14 @@
   padding: 2rem;
   border-radius: 12px;
   margin-bottom: 2rem;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
   position: relative;
 }
 
 .education-card:hover {
   transform: translateX(10px);
   background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .education-icon {
@@ -44,6 +45,7 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  box-shadow: 0 4px 10px rgba(255, 75, 31, 0.3);
 }
 
 .education-content {
@@ -75,14 +77,57 @@
   line-height: 1.6;
 }
 
+@media (max-width: 1024px) {
+  .education-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .section-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .education-card {
     flex-direction: column;
     gap: 1rem;
+    padding: 1.5rem;
   }
 
   .education-icon {
     align-self: flex-start;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .education-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .education-content h4 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .education-section {
+    padding: 2rem 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .education-card {
+    padding: 1.25rem;
+  }
+
+  .education-icon {
+    width: 40px;
+    height: 40px;
   }
 }
 
