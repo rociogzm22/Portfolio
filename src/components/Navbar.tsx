@@ -35,7 +35,7 @@ export default function Navbar() {
           <a href="#gallery" onClick={() => setIsMenuOpen(false)}>
             Galería
           </a>
-          <a href="#contact" onClick={() => setIsMenuOpen(false)}>
+          <a href="#footer" onClick={() => setIsMenuOpen(false)}>
             Contacto
           </a>
         </div>

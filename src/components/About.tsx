@@ -32,16 +32,18 @@ export default function About() {
         {isInfoVisible && (
           <div className="about-info">
             <p>
-              Soy una desarrolladora web apasionada por crear experiencias digitales únicas y memorables. Mi enfoque
-              combina creatividad con soluciones técnicas efectivas.
+              Soy una futura ingeniera informática con muchas ganas de comenzar mi carrera profesional. 
+              Actualmente estoy finalizando la carrera y durante mis estudios he descubierto 
+              mi pasión por el desarrollo de software, la inteligencia artificial y, sobre todo, la ciberseguridad.
             </p>
             <p>
-              Me especializo en el desarrollo frontend con React y Next.js, siempre buscando la mejor manera de traducir
-              diseños creativos en código eficiente.
+              He tenido la oportunidad de participar en diversos proyectos junto a mis compañeros, lo que me ha permitido desarrollar nuevas <i>skills</i> y conocimientos.
+              Siempre estoy buscando nuevos retos a los que enfrentarme, por ello me gusta participar en hackathones y eventos del sector, además de realizar CTFs.
             </p>
             <p>
-              Cuando no estoy codificando, me encontrarás explorando nuevas tecnologías, contribuyendo a proyectos de
-              código abierto o disfrutando de la naturaleza.
+              Me considero una persona curiosa, comprometida y con muchas ganas de enfrentar nuevos desafíos.
+              Estoy muy entusiasmada por seguir aprendiendo y creciendo profesionalmente, siempre con la intención de aportar valor y marcar una diferencia
+              de forma positiva en este "mundillo".
             </p>
           </div>
         )}
